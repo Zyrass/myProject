@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Learn while playing</title>
+    <meta name="description" content="Rédaction de plusieurs cours sur les langages informatique. (Html5 ; CSS3 ; JAVASCRIPT; JQUERY ; PHP ; MYSQL)">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- CSS Bootstrap 3 -->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <!-- Font-Awesome CDN -->
+    <link href="https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css" rel="stylesheet" />
+    <!-- CSS Perso -->
+    <link rel="stylesheet" href="vendor/css/myStyle.css">
+</head>
+<body>
+<!--[if lt IE 7]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+    <header>
+        <h1>Memento personnel</h1>
+        <hr>
+    </header>
+    <main>
+        <?php
+        /**
+         * Ci-dessous inclusion d'un template au format PHTML
+         */
+            include "../../App/Controllers/" . $template . ".phtml";
+        ?>
+    </main>
+    <footer>Pied de page</footer>
+    <!-- JQuery -->
+    <script type="text/javascript" src="vendor/js/jquery-3.2.0.min.js"></script>
+    <!-- Script Bootstrap 3 -->
+    <script type="text/javascript" src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!-- Script perso -->
+    <script type="text/javascript" src="vendor/js/myScript.js"></script>
+</body>
+</html>
