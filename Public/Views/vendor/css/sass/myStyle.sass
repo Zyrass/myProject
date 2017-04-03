@@ -1,0 +1,47 @@
+@import 'partiels/_color'
+@import 'partiels/_mixins'
+@import "partiels/_fonts"
+
+// Code CSS GENERAL
+@charset "UTF-8"
+
+html
+  font-size: 62.5%
+
+body
+  box-sizing: border-box
+  background-color: $bg-sombre
+  font-family: $fontBody
+
+h1, h2, h3, h4, h5, h6
+  font-family: $fontTitle
+
+.navbar
+  background-color: $black
+  .icon-bar
+    background-color: $white
+
+#myMain
+  padding-bottom: 120px
+
+.jumbotron
+  @media screen and (max-width: 767px)
+    @include my-jumbotron
+    height: 325px
+  @media screen and (min-width: 768px) and (max-width: 991px)
+    @include my-jumbotron
+    height: 280px
+  @media screen and (min-width: 992px)
+    @include my-jumbotron
+    height: 250px
+
+h2
+  font-size: 4rem
+  small
+    font-size: 2rem
+
+main
+  margin-top: 10px
+
+footer
+  @include my-footer
