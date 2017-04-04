@@ -1,6 +1,7 @@
 @import 'partiels/_color'
 @import 'partiels/_mixins'
 @import "partiels/_fonts"
+@import "partiels/_transitions"
 
 // Code CSS GENERAL
 @charset "UTF-8"
@@ -11,23 +12,44 @@ html
 body
   box-sizing: border-box
   background-color: $bg-sombre
+  background-image: url("../../assets/background/images/abstract/low-poly00.jpg")
+  background-repeat: no-repeat
+  background-size: cover
   font-family: $fontBody
 
 h1, h2, h3, h4, h5, h6
   font-family: $fontTitle
+  color: $bg-sombre
+  text-shadow: 1px 1px 5px $blue
+  small
+    text-shadow: 1px 1px 2.5px $bg-sombre
 
 .navbar
   background-color: $black
+  .navbar-brand
+    color: $warning !important
+    &:hover
+      transition: $border-bottom
+      border-bottom: 2px solid $white
+  a
+    color: $white
+    &:hover, &:focus
+      transition: $hover
+      color: $bg-sombre
+      text-shadow: 1px 0 0 $black
+
   .icon-bar
     background-color: $white
 
+
 #myMain
+  padding-top: 70px
   padding-bottom: 120px
 
 .jumbotron
   @media screen and (max-width: 767px)
     @include my-jumbotron
-    height: 325px
+    height: 425px
   @media screen and (min-width: 768px) and (max-width: 991px)
     @include my-jumbotron
     height: 280px

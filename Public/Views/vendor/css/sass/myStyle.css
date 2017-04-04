@@ -15,17 +15,36 @@ html {
 body {
   box-sizing: border-box;
   background-color: #1f1f1f;
+  background-image: url("../../assets/background/images/abstract/low-poly00.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: "Trirong", serif; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Cinzel Decorative", cursive; }
+  font-family: "Cinzel Decorative", cursive;
+  color: #1f1f1f;
+  text-shadow: 1px 1px 5px #285e8e; }
+  h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
+    text-shadow: 1px 1px 2.5px #1f1f1f; }
 
 .navbar {
   background-color: #131313; }
+  .navbar .navbar-brand {
+    color: #8a6d3b !important; }
+    .navbar .navbar-brand:hover {
+      transition: border 5s linear;
+      border-bottom: 2px solid #fff; }
+  .navbar a {
+    color: #fff; }
+    .navbar a:hover, .navbar a:focus {
+      transition: text-shadow 0.5s linear, color 0.3s ease-in;
+      color: #1f1f1f;
+      text-shadow: 1px 0 0 #131313; }
   .navbar .icon-bar {
     background-color: #fff; }
 
 #myMain {
+  padding-top: 70px;
   padding-bottom: 120px; }
 
 @media screen and (max-width: 767px) {
@@ -33,8 +52,8 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 0 !important;
     width: 100% !important;
     position: relative;
-    box-shadow: 0 0 10px #fff;
-    height: 325px; }
+    padding: 20px;
+    height: 425px; }
     .jumbotron #logo {
       position: absolute;
       top: 0;
@@ -48,7 +67,7 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 0 !important;
     width: 100% !important;
     position: relative;
-    box-shadow: 0 0 10px #fff;
+    padding: 20px;
     height: 280px; }
     .jumbotron #logo {
       position: absolute;
@@ -63,7 +82,7 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 0 !important;
     width: 100% !important;
     position: relative;
-    box-shadow: 0 0 10px #fff;
+    padding: 20px;
     height: 250px; }
     .jumbotron #logo {
       position: absolute;
