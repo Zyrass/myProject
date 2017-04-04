@@ -62,57 +62,44 @@
                             <a data-toggle="dropdown"tabindex="-1" href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Mémento Connaissance</a>
                             <ul class="dropdown-menu">
                                 <li class="dropdown-submenu">
-                                    <a data-toggle="dropdown"tabindex="-1" href="../../App/Models/shell.php""><i class="fa fa-terminal" aria-hidden="true"></i>  | Shell</a>
+                                    <a data-toggle="dropdown"tabindex="-1" href="#"><i class="fa fa-terminal" aria-hidden="true"></i>  | Shell</a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - BOWER, Kezako ?</a></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Pourquoi Bower ?</a></li>
+                                        <li><a href="../../App/Models/shell.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Découverte du Shell</a></li>
+                                        <li><a href="../../App/Models/shell.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Quelle terminal utiliser ?</a></li>
                                         <li class="divider"></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Les pré-requis</a></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Ligne de commande</a></li>
+                                        <li><a href="../../App/Models/shell.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Les commandes sous Windows</a></li>
+                                        <li><a href="../../App/Models/shell.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Les commandes sous Linux</a></li>
+                                        <li><a href="../../App/Models/shell.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Les commandes sous Mac</a></li>
                                         <li class="divider"></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Installer</a></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Mettre à jour</a></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Supprimer</a></li>
+                                        <li><a href="../../App/Models/shell.php"><i class="fa fa-link" aria-hidden="true"></i> - Ressources</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu">
+                                    <a data-toggle="dropdown"tabindex="-1" href="#"><i class="fa fa-github" aria-hidden="true"></i> | Github</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="../../App/Models/github.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Git mais... Kézako ?</a></li>
+                                        <li><a href="../../App/Models/github.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Pré-requis</a></li>
                                         <li class="divider"></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Mise en prod'</a></li>
+                                        <li><a href="../../App/Models/github.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Cloner un repository</a></li>
+                                        <li><a href="../../App/Models/github.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Initialisation d'un repository</a></li>
+                                        <li class="divider"></li>
+                                        <li><a href="../../App/Models/github.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Uploadé un projet complet</a></li>
+                                        <li><a href="../../App/Models/github.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Ignorer des fichiers</a></li>
+                                        <li><a href="../../App/Models/github.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Concevez des branches</a></li>
+                                        <li><a href="../../App/Models/github.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Fusionner des branches</a></li>
                                         <li class="divider"></li>
                                         <li><a href="#"><i class="fa fa-link" aria-hidden="true"></i> - Ressources</a></li>
                                     </ul>
                                 </li>
                                 <li class="dropdown-submenu">
-                                    <a data-toggle="dropdown"tabindex="-1" href="../../App/Models/github.php"><i class="fa fa-github" aria-hidden="true"></i> | Github</a>
+                                    <a data-toggle="dropdown"tabindex="-1" href="#"><i class="fa fa-maxcdn" aria-hidden="true"></i> | Markdown</a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - BOWER, Kezako ?</a></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Pourquoi Bower ?</a></li>
+                                        <li><a href="../../App/Models/markdown.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Pourquoi utiliser le markdown ?</a></li>
+                                        <li><a href="../../App/Models/markdown.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - La syntaxe du langage</a></li>
                                         <li class="divider"></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Les pré-requis</a></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Ligne de commande</a></li>
+                                        <li><a href="../../App/Models/markdown.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Un projet complet</a></li>
                                         <li class="divider"></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Installer</a></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Mettre à jour</a></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Supprimer</a></li>
-                                        <li class="divider"></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Mise en prod'</a></li>
-                                        <li class="divider"></li>
-                                        <li><a href="#"><i class="fa fa-link" aria-hidden="true"></i> - Ressources</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown-submenu">
-                                    <a data-toggle="dropdown"tabindex="-1" href="../../App/Models/markdown.php"><i class="fa fa-maxcdn" aria-hidden="true"></i> | Markdown</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - BOWER, Kezako ?</a></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Pourquoi Bower ?</a></li>
-                                        <li class="divider"></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Les pré-requis</a></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Ligne de commande</a></li>
-                                        <li class="divider"></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Installer</a></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Mettre à jour</a></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Supprimer</a></li>
-                                        <li class="divider"></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Mise en prod'</a></li>
-                                        <li class="divider"></li>
-                                        <li><a href="#"><i class="fa fa-link" aria-hidden="true"></i> - Ressources</a></li>
+                                        <li><a href="../../App/Models/markdown.php"><i class="fa fa-link" aria-hidden="true"></i> - Ressources</a></li>
                                     </ul>
                                 </li>
                             </ul>
@@ -120,10 +107,10 @@
                         <li class="divider"></li>
                         <li class="dropdown-header">Se créer son propre Workflow</li>
                         <li class="divider"></li>
-                        <li><a href="#"><i class="glyphicon glyphicon-leaf"></i> | Opérating Systèm ( OS )</a></li>
-                        <li><a href="#"><i class="glyphicon glyphicon-leaf"></i> | Terminal</a></li>
-                        <li><a href="#"><i class="glyphicon glyphicon-leaf"></i> | Navigateur</a></li>
-                        <li><a href="#"><i class="glyphicon glyphicon-leaf"></i> | IDE avec coloration syntaxique</a></li>
+                        <li><a href="../../App/Models/os.php"><i class="glyphicon glyphicon-leaf"></i> | Opérating Systèm ( OS )</a></li>
+                        <li><a href="../../App/Models/terminal.php"><i class="glyphicon glyphicon-leaf"></i> | Terminal</a></li>
+                        <li><a href="../../App/Models/navigateur.php"><i class="glyphicon glyphicon-leaf"></i> | Navigateur</a></li>
+                        <li><a href="../../App/Models/ide.php"><i class="glyphicon glyphicon-leaf"></i> | IDE avec coloration syntaxique</a></li>
                         <li class="divider"></li>
                         <li class="dropdown-header">Intégration</li>
                         <li class="divider"></li>
@@ -186,45 +173,45 @@
                                 </li>
                                 <li role="separator" class="divider"></li>
                                 <li class="dropdown-submenu">
-                                    <a data-toggle="dropdown"tabindex="-1" href="../../App/Models/bower.php"><span><img src="../../../Public/Views/assets/icones/bower.png" alt="icône Bower" width="14%" style="padding-bottom: 5px" /></span> Bower</a>
+                                    <a data-toggle="dropdown"tabindex="-1" href="#"><span><img src="../../../Public/Views/assets/icones/bower.png" alt="icône Bower" width="14%" style="padding-bottom: 5px" /></span> Bower</a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - BOWER, Kezako ?</a></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Pourquoi Bower ?</a></li>
+                                        <li><a href="../../App/Models/bower.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - BOWER, Kezako ?</a></li>
+                                        <li><a href="../../App/Models/bower.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Pourquoi Bower ?</a></li>
                                         <li class="divider"></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Les pré-requis</a></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Ligne de commande</a></li>
+                                        <li><a href="../../App/Models/bower.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Les pré-requis</a></li>
+                                        <li><a href="../../App/Models/bower.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Ligne de commande</a></li>
                                         <li class="divider"></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Installer</a></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Mettre à jour</a></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Supprimer</a></li>
+                                        <li><a href="../../App/Models/bower.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Installer</a></li>
+                                        <li><a href="../../App/Models/bower.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Mettre à jour</a></li>
+                                        <li><a href="../../App/Models/bower.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Supprimer</a></li>
                                         <li class="divider"></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Mise en prod'</a></li>
+                                        <li><a href="../../App/Models/bower.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Mise en prod'</a></li>
                                         <li class="divider"></li>
-                                        <li><a href="#"><i class="fa fa-link" aria-hidden="true"></i> - Ressources</a></li>
+                                        <li><a href="../../App/Models/bower.php"><i class="fa fa-link" aria-hidden="true"></i> - Ressources</a></li>
                                     </ul>
                                 </li>
                                 <li class="dropdown-submenu">
-                                    <a data-toggle="dropdown"tabindex="-1" href="../../App/Models/sass.php"><span><img src="../../../Public/Views/assets/icones/sass.png" alt="icône Sass" width="14%" style="padding-bottom: 5px" /></span> Sass</a>
+                                    <a data-toggle="dropdown"tabindex="-1" href="#"><span><img src="../../../Public/Views/assets/icones/sass.png" alt="icône Sass" width="14%" style="padding-bottom: 5px" /></span> Sass</a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Pourquoi SASS ?</a></li>
+                                        <li><a href="../../App/Models/sass.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Pourquoi SASS ?</a></li>
                                         <li class="divider"></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - SASS ou SCSS ?</a></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - La ligne de commande</a></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Application</a></li>
+                                        <li><a href="../../App/Models/sass.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - SASS ou SCSS ?</a></li>
+                                        <li><a href="../../App/Models/sass.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - La ligne de commande</a></li>
+                                        <li><a href="../../App/Models/sass.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Application</a></li>
                                         <li class="divider"></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Le style de formatage</a></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Les commentaires</a></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Les variables</a></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Les sélecteurs parents</a></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - L'héritage</a></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Les medias query</a></li>
+                                        <li><a href="../../App/Models/sass.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Le style de formatage</a></li>
+                                        <li><a href="../../App/Models/sass.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Les commentaires</a></li>
+                                        <li><a href="../../App/Models/sass.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Les variables</a></li>
+                                        <li><a href="../../App/Models/sass.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Les sélecteurs parents</a></li>
+                                        <li><a href="../../App/Models/sass.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - L'héritage</a></li>
+                                        <li><a href="../../App/Models/sass.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Les medias query</a></li>
                                         <li class="divider"></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Les mixins</a></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Créer une bibliothèque</a></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Bibliothèque Bourbon</a></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - @content & les mixins</a></li>
+                                        <li><a href="../../App/Models/sass.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Les mixins</a></li>
+                                        <li><a href="../../App/Models/sass.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Créer une bibliothèque</a></li>
+                                        <li><a href="../../App/Models/sass.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Bibliothèque Bourbon</a></li>
+                                        <li><a href="../../App/Models/sass.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - @content & les mixins</a></li>
                                         <li class="divider"></li>
-                                        <li><a href="#"><i class="fa fa-link" aria-hidden="true"></i> - Ressources</a></li>
+                                        <li><a href="../../App/Models/sass.php"><i class="fa fa-link" aria-hidden="true"></i> - Ressources</a></li>
                                     </ul>
                                 </li>
                             </ul>
