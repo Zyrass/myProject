@@ -56,11 +56,26 @@
                 <li class="dropdown">
                     <a data-toggle="dropdown" href="#">Apprentissage<b class="caret"></b></a>
                     <ul class="dropdown-menu jqueryFadeIn">
-                        <li class="dropdown-header">Connaissance souhaitable</li>
-                        <li class="divider"></li>
+                        <li class="dropdown-header">Se créer son Workflow</li>
                         <li class="dropdown-submenu">
-                            <a data-toggle="dropdown"tabindex="-1" href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Mémento Connaissance</a>
+                            <a data-toggle="dropdown"tabindex="-1" href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Workflow</a>
                             <ul class="dropdown-menu">
+                                <li><a href="../../App/Models/workflow.php"><span class="glyphicon glyphicon-education text-danger" aria-hidden="true"></span> - <span class="text-danger">C'est quoi un workflow ?</span></a></li>
+                                <li class="divider"></li>
+                                <li><a href="../../App/Models/os.php"><i class="glyphicon glyphicon-leaf"></i> | Opérating Systèm ( OS )</a></li>
+                                <li><a href="../../App/Models/terminal.php"><i class="glyphicon glyphicon-leaf"></i> | Terminal</a></li>
+                                <li><a href="../../App/Models/navigateur.php"><i class="glyphicon glyphicon-leaf"></i> | Navigateur</a></li>
+                                <li><a href="../../App/Models/ide.php"><i class="glyphicon glyphicon-leaf"></i> | IDE avec coloration syntaxique</a></li>
+                            </ul>
+                        </li>
+                        <li class="divider"></li>
+                        <li class="dropdown-header">Mémentos</li>
+                        <li class="dropdown-submenu">
+                            <a data-toggle="dropdown"tabindex="-1" href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Connaissance souhaitable</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="../../App/Models/connaissance.php"><span class="glyphicon glyphicon-education text-danger" aria-hidden="true"></span> - <span class="text-danger">Qu'es-ce-qu'on y gagne ?</span></a></li>
+                                <li class="divider"></li>
+                                <li class="dropdown-header text-center">Indispensable</li>
                                 <li class="dropdown-submenu">
                                     <a data-toggle="dropdown"tabindex="-1" href="#"><i class="fa fa-terminal" aria-hidden="true"></i>  | Shell</a>
                                     <ul class="dropdown-menu">
@@ -91,6 +106,7 @@
                                         <li><a href="#"><i class="fa fa-link" aria-hidden="true"></i> - Ressources</a></li>
                                     </ul>
                                 </li>
+                                <li class="dropdown-header text-center">Un gros +</li>
                                 <li class="dropdown-submenu">
                                     <a data-toggle="dropdown"tabindex="-1" href="#"><i class="fa fa-maxcdn" aria-hidden="true"></i> | Markdown</a>
                                     <ul class="dropdown-menu">
@@ -104,74 +120,97 @@
                                 </li>
                             </ul>
                         </li>
-                        <li class="divider"></li>
-                        <li class="dropdown-header">Se créer son propre Workflow</li>
-                        <li class="divider"></li>
-                        <li><a href="../../App/Models/os.php"><i class="glyphicon glyphicon-leaf"></i> | Opérating Systèm ( OS )</a></li>
-                        <li><a href="../../App/Models/terminal.php"><i class="glyphicon glyphicon-leaf"></i> | Terminal</a></li>
-                        <li><a href="../../App/Models/navigateur.php"><i class="glyphicon glyphicon-leaf"></i> | Navigateur</a></li>
-                        <li><a href="../../App/Models/ide.php"><i class="glyphicon glyphicon-leaf"></i> | IDE avec coloration syntaxique</a></li>
-                        <li class="divider"></li>
-                        <li class="dropdown-header">Intégration</li>
-                        <li class="divider"></li>
                         <li class="dropdown-submenu">
-                            <a data-toggle="dropdown"tabindex="-1" href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Mémento Intégration</a>
+                            <a data-toggle="dropdown"tabindex="-1" href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Intégration - ( Front-End )</a>
                             <ul class="dropdown-menu">
+                                <li class="dropdown-header text-center">Langages</li>
                                 <li class="dropdown-submenu">
-                                    <a data-toggle="dropdown"tabindex="-1" href="../../App/Models/html.php"><span><img src="../../../Public/Views/assets/icones/html.png" alt="icône HTML" width="14%" style="padding-bottom: 5px" /></span> | Html</a>
+                                    <a data-toggle="dropdown"tabindex="-1" href="#"><span><img src="../../../Public/Views/assets/icones/html.png" alt="icône HTML" width="14%" style="padding-bottom: 5px" /></span> | Html</a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - BOWER, Kezako ?</a></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Pourquoi Bower ?</a></li>
+                                        <li><a href="../../App/Models/html.php"><span class="glyphicon glyphicon-education text-danger" aria-hidden="true"></span> - <span class="text-danger">Présentation du HTML</span></a></li>
                                         <li class="divider"></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Les pré-requis</a></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Ligne de commande</a></li>
+                                        <li><a href="../../App/Models/html.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Le HTML est-il important ?</a></li>
                                         <li class="divider"></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Installer</a></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Mettre à jour</a></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Supprimer</a></li>
+                                        <li><a href="../../App/Models/html.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Introduction au HTML</a></li>
+                                        <li><a href="../../App/Models/html.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Les bases du HTML</a></li>
+                                        <li><a href="../../App/Models/html.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Quelques notions supplémentaire</a></li>
+                                        <li><a href="../../App/Models/html.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - HTML avancé</a></li>
                                         <li class="divider"></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Mise en prod'</a></li>
-                                        <li class="divider"></li>
-                                        <li><a href="#"><i class="fa fa-link" aria-hidden="true"></i> - Ressources</a></li>
+                                        <li><a href="../../App/Models/html.php"><i class="fa fa-link" aria-hidden="true"></i> - Ressources</a></li>
                                     </ul>
                                 </li>
                                 <li class="dropdown-submenu">
-                                    <a data-toggle="dropdown"tabindex="-1" href="../../App/Models/css.php"><span><img src="../../../Public/Views/assets/icones/css.png" alt="icône CSS" width="14%" style="padding-bottom: 5px" /></span> | Css</a>
+                                    <a data-toggle="dropdown"tabindex="-1" href="#"><span><img src="../../../Public/Views/assets/icones/css.png" alt="icône CSS" width="14%" style="padding-bottom: 5px" /></span> | Css</a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - BOWER, Kezako ?</a></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Pourquoi Bower ?</a></li>
+                                        <li><a href="../../App/Models/css.php"><span class="glyphicon glyphicon-education text-danger" aria-hidden="true"></span> - <span class="text-danger">Présentation du CSS</span></a></li>
                                         <li class="divider"></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Les pré-requis</a></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Ligne de commande</a></li>
+                                        <li><a href="../../App/Models/css.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - L'utilité du CSS</a></li>
                                         <li class="divider"></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Installer</a></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Mettre à jour</a></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Supprimer</a></li>
+                                        <li><a href="../../App/Models/css.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Introduction au CSS</a></li>
+                                        <li><a href="../../App/Models/css.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Les bases du CSS</a></li>
+                                        <li><a href="../../App/Models/css.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Les positions en CSS</a></li>
+                                        <li><a href="../../App/Models/css.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Allez plus loins avec le CSS</a></li>
+                                        <li><a href="../../App/Models/css.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Les animations en CSS</a></li>
+                                        <li><a href="../../App/Models/css.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - CSS avancés</a></li>
                                         <li class="divider"></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Mise en prod'</a></li>
+                                        <li><a href="../../App/Models/css.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - BOWER, Kezako ?</a></li>
                                         <li class="divider"></li>
-                                        <li><a href="#"><i class="fa fa-link" aria-hidden="true"></i> - Ressources</a></li>
+                                        <li><a href="../../App/Models/css.php"><i class="fa fa-link" aria-hidden="true"></i> - Ressources CSS</a></li>
                                     </ul>
                                 </li>
                                 <li class="dropdown-submenu">
-                                    <a data-toggle="dropdown"tabindex="-1" href="../../App/Models/bootstrap.php"><span><img src="../../../Public/Views/assets/icones/bootstrap.png" alt="icône Shell" width="14%" style="padding-bottom: 5px" /></span> | Bootstrap</a></a>
+                                    <a data-toggle="dropdown"tabindex="-1" href="../../App/Models/javascript.php""><span><img src="../../../Public/Views/assets/icones/javascript.png" alt="icône JavaScript" width="14%" style="padding-bottom: 5px" /></span> | Javascript</a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - BOWER, Kezako ?</a></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Pourquoi Bower ?</a></li>
+                                        <li><a href="../../App/Models/javascript.php"><span class="glyphicon glyphicon-education text-danger" aria-hidden="true"></span> - <span class="text-danger">Présentation de JavaScript</span></a></li>
                                         <li class="divider"></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Les pré-requis</a></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Ligne de commande</a></li>
+                                        <li><a href="../../App/Models/javascript.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Pourquoi apprendre JavaScript ?</a></li>
                                         <li class="divider"></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Installer</a></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Mettre à jour</a></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Supprimer</a></li>
+                                        <li><a href="../../App/Models/javascript.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Introduction à JavaScript</a></li>
+                                        <li><a href="../../App/Models/javascript.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - La logique et notions avancées</a></li>
+                                        <li><a href="../../App/Models/javascript.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Intérargir avec la page web</a></li>
+                                        <li><a href="../../App/Models/javascript.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Gestions des évènements</a></li>
                                         <li class="divider"></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Mise en prod'</a></li>
-                                        <li class="divider"></li>
-                                        <li><a href="#"><i class="fa fa-link" aria-hidden="true"></i> - Ressources</a></li>
+                                        <li><a href="../../App/Models/javascript.php"><i class="fa fa-link" aria-hidden="true"></i> - Ressources</a></li>
                                     </ul>
                                 </li>
-                                <li role="separator" class="divider"></li>
+                                <li class="divider"></li>
+                                <li class="dropdown-header text-center">Framework html/css/js</li>
+                                <li class="dropdown-submenu">
+                                    <a data-toggle="dropdown"tabindex="-1" href="#"><span><img src="../../../Public/Views/assets/icones/bootstrap.png" alt="icône Shell" width="14%" style="padding-bottom: 5px" /></span> | Bootstrap</a></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="../../App/Models/bootstrap.php"><span class="glyphicon glyphicon-education text-danger" aria-hidden="true"></span> - <span class="text-danger">Présentation de Bootstrap</span></a></li>
+                                        <li class="divider"></li>
+                                        <li><a href="../../App/Models/bootstrap.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Pourquoi j'ai choisi Bootstrap ?</a></li>
+                                        <li class="divider"></li>
+                                        <li><a href="../../App/Models/bootstrap.php"><i class="fa fa-link" aria-hidden="true"></i> - Ressources sur Bootstrap 3</a></li>
+                                        <li><a href="../../App/Models/bootstrap.php"><i class="fa fa-link" aria-hidden="true"></i> - Ressources sur Bootstrap 4</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-header text-center">Librairie js</li>
+                                <li class="dropdown-submenu">
+                                    <a data-toggle="dropdown"tabindex="-1" href="../../App/Models/jquery.php"><span><img src="../../../Public/Views/assets/icones/jquery.png" alt="icône JQuery" width="14%" style="padding-bottom: 5px" /></span> | Jquery</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="../../App/Models/jquery.php"><span class="glyphicon glyphicon-education text-danger" aria-hidden="true"></span> - <span class="text-danger">Présentation de jQuery</span></a></li>
+                                        <li class="divider"></li>
+                                        <li><a href="../../App/Models/jquery.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Environnement de travail</a></li>
+                                        <li><a href="../../App/Models/jquery.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Sélection simple</a></li>
+                                        <li><a href="../../App/Models/jquery.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Où se trouve mon élément ?</a></li>
+                                        <li><a href="../../App/Models/jquery.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Les dimensions</a></li>
+                                        <li><a href="../../App/Models/jquery.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Afficher et cacher</a></li>
+                                        <li><a href="../../App/Models/jquery.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Cas concrets et animations</a></li>
+                                        <li><a href="../../App/Models/jquery.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Les évènements</a></li>
+                                        <li><a href="../../App/Models/jquery.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Les sélecteurs</a></li>
+                                        <li><a href="../../App/Models/jquery.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Ajax</a></li>
+                                        <li><a href="../../App/Models/jquery.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Sélection simple</a></li>
+                                        <li class="divider"></li>
+                                        <li><a href="../../App/Models/jquery.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Les plugins</a></li>
+                                        <li><a href="../../App/Models/jquery.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - jQuery UI</a></li>
+                                        <li class="divider"></li>
+                                        <li><a href="../../App/Models/jquery.php"><i class="fa fa-link" aria-hidden="true"></i> - Ressources</a></li>
+                                    </ul>
+                                </li>
+                                <li class="divider"></li>
+                                <li class="dropdown-header text-center">Géstionnaire de dépendances</li>
                                 <li class="dropdown-submenu">
                                     <a data-toggle="dropdown"tabindex="-1" href="#"><span><img src="../../../Public/Views/assets/icones/bower.png" alt="icône Bower" width="14%" style="padding-bottom: 5px" /></span> Bower</a>
                                     <ul class="dropdown-menu">
@@ -179,105 +218,90 @@
                                         <li><a href="../../App/Models/bower.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Pourquoi Bower ?</a></li>
                                         <li class="divider"></li>
                                         <li><a href="../../App/Models/bower.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Les pré-requis</a></li>
-                                        <li><a href="../../App/Models/bower.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Ligne de commande</a></li>
+                                        <li><a href="../../App/Models/bower.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Les lignes de commandes</a></li>
                                         <li class="divider"></li>
-                                        <li><a href="../../App/Models/bower.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Installer</a></li>
-                                        <li><a href="../../App/Models/bower.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Mettre à jour</a></li>
-                                        <li><a href="../../App/Models/bower.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Supprimer</a></li>
+                                        <li><a href="../../App/Models/bower.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Installer un paquet</a></li>
+                                        <li><a href="../../App/Models/bower.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Mettre à jour un paquet</a></li>
+                                        <li><a href="../../App/Models/bower.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Supprimer un paquet</a></li>
                                         <li class="divider"></li>
-                                        <li><a href="../../App/Models/bower.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Mise en prod'</a></li>
+                                        <li><a href="../../App/Models/bower.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Mettre en production son projet</a></li>
                                         <li class="divider"></li>
                                         <li><a href="../../App/Models/bower.php"><i class="fa fa-link" aria-hidden="true"></i> - Ressources</a></li>
                                     </ul>
                                 </li>
+                                <li class="divider"></li>
+                                <li class="dropdown-header text-center">Pré-processeur</li>
                                 <li class="dropdown-submenu">
                                     <a data-toggle="dropdown"tabindex="-1" href="#"><span><img src="../../../Public/Views/assets/icones/sass.png" alt="icône Sass" width="14%" style="padding-bottom: 5px" /></span> Sass</a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="../../App/Models/sass.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Pourquoi SASS ?</a></li>
+                                        <li><a href="../../App/Models/sass.php"><span class="glyphicon glyphicon-education text-danger" aria-hidden="true"></span> - <span class="text-danger">Présentation de SASS</span></a></li>
                                         <li class="divider"></li>
-                                        <li><a href="../../App/Models/sass.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - SASS ou SCSS ?</a></li>
-                                        <li><a href="../../App/Models/sass.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - La ligne de commande</a></li>
-                                        <li><a href="../../App/Models/sass.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Application</a></li>
-                                        <li class="divider"></li>
-                                        <li><a href="../../App/Models/sass.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Le style de formatage</a></li>
+                                        <li class="dropdown-header text-center">Introduction</li>
+                                        <li><a href="../../App/Models/sass.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Découverte de SASS</a></li>
+<!--                                        <li><a href="../../App/Models/sass.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - SASS ou SCSS ?</a></li>-->
+<!--                                        <li><a href="../../App/Models/sass.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Les lignes de commandes</a></li>-->
+<!--                                        <li><a href="../../App/Models/sass.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Application de substitution</a></li>-->
+                                        <li><a href="../../App/Models/sass.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Les fondamentaux de SASS</a></li>
+                                        <!--<li><a href="../../App/Models/sass.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Le style de formatage</a></li>
                                         <li><a href="../../App/Models/sass.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Les commentaires</a></li>
                                         <li><a href="../../App/Models/sass.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Les variables</a></li>
                                         <li><a href="../../App/Models/sass.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Les sélecteurs parents</a></li>
-                                        <li><a href="../../App/Models/sass.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - L'héritage</a></li>
-                                        <li><a href="../../App/Models/sass.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Les medias query</a></li>
+                                        <li><a href="../../App/Models/sass.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Les medias query</a></li>-->
+                                        <li><a href="../../App/Models/sass.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Les notions avancées de SASS</a></li>
+<!--                                        <li><a href="../../App/Models/sass.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - L'héritage</a></li>-->
+<!--                                        <li><a href="../../App/Models/sass.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Les mixins</a></li>-->
+<!--                                        <li><a href="../../App/Models/sass.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Créer une bibliothèque</a></li>-->
+<!--                                        <li><a href="../../App/Models/sass.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - @content & les mixins</a></li>-->
                                         <li class="divider"></li>
-                                        <li><a href="../../App/Models/sass.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Les mixins</a></li>
-                                        <li><a href="../../App/Models/sass.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Créer une bibliothèque</a></li>
                                         <li><a href="../../App/Models/sass.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Bibliothèque Bourbon</a></li>
-                                        <li><a href="../../App/Models/sass.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - @content & les mixins</a></li>
-                                        <li class="divider"></li>
                                         <li><a href="../../App/Models/sass.php"><i class="fa fa-link" aria-hidden="true"></i> - Ressources</a></li>
                                     </ul>
                                 </li>
                             </ul>
                         </li>
-                        <li class="divider"></li>
-                        <li class="dropdown-header">Développement</li>
-                        <li class="divider"></li>
                         <li class="dropdown-submenu">
-                            <a data-toggle="dropdown"tabindex="-1" href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Mémento Développement</a>
+                            <a data-toggle="dropdown"tabindex="-1" href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Développement</a>
                             <ul class="dropdown-menu">
-                                <li class="dropdown-submenu">
-                                    <a data-toggle="dropdown"tabindex="-1" href="../../App/Models/javascript.php""><span><img src="../../../Public/Views/assets/icones/javascript.png" alt="icône JavaScript" width="14%" style="padding-bottom: 5px" /></span> | Javascript</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - BOWER, Kezako ?</a></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Pourquoi Bower ?</a></li>
-                                        <li class="divider"></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Les pré-requis</a></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Ligne de commande</a></li>
-                                        <li class="divider"></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Installer</a></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Mettre à jour</a></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Supprimer</a></li>
-                                        <li class="divider"></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Mise en prod'</a></li>
-                                        <li class="divider"></li>
-                                        <li><a href="#"><i class="fa fa-link" aria-hidden="true"></i> - Ressources</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown-submenu">
-                                    <a data-toggle="dropdown"tabindex="-1" href="../../App/Models/jquery.php"><span><img src="../../../Public/Views/assets/icones/jquery.png" alt="icône JQuery" width="14%" style="padding-bottom: 5px" /></span> | Jquery</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - BOWER, Kezako ?</a></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Pourquoi Bower ?</a></li>
-                                        <li class="divider"></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Les pré-requis</a></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Ligne de commande</a></li>
-                                        <li class="divider"></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Installer</a></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Mettre à jour</a></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Supprimer</a></li>
-                                        <li class="divider"></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Mise en prod'</a></li>
-                                        <li class="divider"></li>
-                                        <li><a href="#"><i class="fa fa-link" aria-hidden="true"></i> - Ressources</a></li>
-                                    </ul>
-                                </li>
-                                <li role="separator" class="divider"></li>
+                                <li class="dropdown-header text-center">Langages</li>
+
                                 <li class="dropdown-submenu">
                                     <a data-toggle="dropdown"tabindex="-1" href="../../App/Models/php.php"><span><img src="../../../Public/Views/assets/icones/php.png" alt="icône PHP" width="14%" style="padding-bottom: 5px" /></span> | PHP</a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - BOWER, Kezako ?</a></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Pourquoi Bower ?</a></li>
+                                        <li><a href="../../App/Models/jquery.php"><span class="glyphicon glyphicon-education text-danger" aria-hidden="true"></span> - <span class="text-danger">Présentation de jQuery</span></a></li>
                                         <li class="divider"></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Les pré-requis</a></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Ligne de commande</a></li>
+                                        <li class="dropdown-header">A connaître...</li>
                                         <li class="divider"></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Installer</a></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Mettre à jour</a></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Supprimer</a></li>
+                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - A quoi sert le PHP ?</a></li>
+                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Introduction à PHP</a></li>
                                         <li class="divider"></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Mise en prod'</a></li>
+                                        <li class="dropdown-header">Découverte des fondamentaux</li>
+                                        <li class="divider"></li>
+                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - La bases de PHP</a></li>
+                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Les fonctions</a></li>
+                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Quelques notions avancés</a></li>
+                                        <!--<li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Écrire son premier code PHP</a></li>
+                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Les commentaires</a></li>
+                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Les variables</a></li>
+                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - La concaténation</a></li>
+                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Les opérateurs</a></li>
+                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Les conditions</a></li>
+                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Les tableaux</a></li>
+                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Les boucles ( while & for )</a></li>
+                                        <li class="dropdown-header">Les fonctions en PHP</li>
+                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Comprendre le scope</a></li>
+                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Les fonctions interne à PHP</a></li>
+                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Les fonctions anonymes</a></li>
+                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Créer ces propres fonctions</a></li>
+                                        <li class="dropdown-header">Notions avancées</li>
+                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Les expressions régulières ( REGEX )</a></li>
+                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Les superglobales</a></li>
+                                        <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> - Htaccess & Htpasswd</a></li>-->
                                         <li class="divider"></li>
                                         <li><a href="#"><i class="fa fa-link" aria-hidden="true"></i> - Ressources</a></li>
                                     </ul>
                                 </li>
-                                <li role="separator" class="divider"></li>
+                                <li class="divider"></li>
+                                <li class="dropdown-header text-center">Server gestion base de données<br />( SGBD )</li>
                                 <li class="dropdown-submenu">
                                     <a data-toggle="dropdown"tabindex="-1" href="../../App/Models/mysql.php"><span><img src="../../../Public/Views/assets/icones/mysql.jpg" alt="icône MySQL" width="14%" style="padding-bottom: 5px" /></span> | MySQL</a>
                                     <ul class="dropdown-menu">
@@ -296,6 +320,10 @@
                                         <li><a href="#"><i class="fa fa-link" aria-hidden="true"></i> - Ressources</a></li>
                                     </ul>
                                 </li>
+                                <li class="divider"></li>
+                                <li class="dropdown-header text-center">PHP + MySQL</li>
+                                <li class="divider"></li>
+                                <li class="dropdown-header text-center">La programmation orienté objet</li>
                                 <li class="dropdown-submenu">
                                     <a data-toggle="dropdown"tabindex="-1" href="../../App/Models/poo.php"><i class="fa fa-code" aria-hidden="true"></i> | POO</a>
                                     <ul class="dropdown-menu">
