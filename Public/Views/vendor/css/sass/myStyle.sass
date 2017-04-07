@@ -11,11 +11,10 @@ html
 
 body
   box-sizing: border-box
-  background-color: $bg-sombre
-  background-image: url("../../assets/background/images/abstract/low-poly00.jpg")
-  background-repeat: no-repeat
-  background-size: cover
+  background-image: url("../../assets/background/bg5.png")
+  background-repeat: repeat
   font-family: $fontBody
+
 
 h1, h2, h3, h4, h5, h6
   font-family: $fontTitle
@@ -41,10 +40,18 @@ h1, h2, h3, h4, h5, h6
   .icon-bar
     background-color: $white
 
+main
+  margin-bottom: 50px
+  .container-fluid
+    width: 100%
+    padding-right: 0
+    padding-left: 0
+    .item
+      height: 550px
+      width: 100%
+      img
+        background-size: cover
 
-#myMain
-  padding-top: 70px
-  padding-bottom: 120px
 
 .jumbotron
   @media screen and (max-width: 767px)
@@ -62,8 +69,6 @@ h2
   small
     font-size: 2rem
 
-main
-  margin-top: 10px
 
 footer
   @include my-footer
